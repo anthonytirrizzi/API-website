@@ -46,7 +46,7 @@
                     $date = $raffle->meta->_goat_raffle_end_date;
                     $dateTime = new DateTime($date);
                     $options = get_option('goat_raffles_settings');
-                    $dateTime->modify('-' . $options['delay'] . ' minutes');
+                    $dateTime->modify('-' . $options['delay'] . ' seconds');
                     $dateTime->modify('-11 hours');
                 ?>
                 <?php if(!get_option('scheduled_raffle_end_' .  $i)) : ?>

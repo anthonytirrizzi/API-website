@@ -76,7 +76,7 @@ class Goat_winner_settings {
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row"><label for="goat_raffles_delay">Delay (minutes)</label></th>
+                        <th scope="row"><label for="goat_raffles_delay">Delay (seconds)</label></th>
                         <td>
                             <input type="number" id="goat_raffles_delay" name="<?php echo $this->option_name; ?>[delay]" value="<?php echo $delay; ?>">
                         </td>
